@@ -1,7 +1,9 @@
 body{
-    background-color: black;
+    background:url(/images/fon-dlya-stola-tekstura-chernyj.jpg)
 }
+
 .rer{
     font-family: 'Arima Madurai', cursive;
     color: white;
 }
+
