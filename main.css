@@ -8,21 +8,129 @@ body{
     width: 900px;
     height: 500px;
     border-radius: 5px;
-    border: 2px solid red;
     display: inline-block;
     height: 80vh;
     width: 90vw;
-
+    margin-left: 5vw;
 }
-
 .group2{
     width: 400x;
     height: 500px;
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
 }
 .text1{
-    text-align: right;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 5%;
+}
+.blok2{
+    font-family: 'Arima Madurai', cursive;
+    color: white;
+    width: 900px;
+    height: 500px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 80vh;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.blok3{
+    font-family: 'Arima Madurai', cursive;
+    color: white;
+    width: 900px;
+    height: 500px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 80vh;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.blok4{
+    font-family: 'Arima Madurai', cursive;
+    color: white;
+    width: 900px;
+    height: 500px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 80vh;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.blok5{
+    font-family: 'Arima Madurai', cursive;
+    color: white;
+    width: 900px;
+    height: 500px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 80vh;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.blok6{
+    font-family: 'Arima Madurai', cursive;
+    color: white;
+    width: 900px;
+    height: 500px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 80vh;
+    width: 90vw;
+    margin-left: 5vw;
 }
 .text2{
-    text-align: center;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 5%;
+    color: white;
+}
+.text3{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 5%;
+    color: white;
+}
+.text4{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 5%;
+    color: white;
+}
+.text5{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 5%;   
+    color: white;
+}
+.text6{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 5%;
+    color: white;
+}
+.blok7{
+    font-family: 'Arima Madurai', cursive;
+    color: white;
+    width: 900px;
+    height: 500px;
+    border-radius: 5px;
+    display: inline-block;
+    height: 80vh;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.text7{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 5%;
     color: white;
 }
