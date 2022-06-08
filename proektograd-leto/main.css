@@ -1,0 +1,17 @@
+body{
+    background:url(/proektograd-leto/images/fon-dlya-stola-tekstura-chernyj.jpg)
+}
+
+.blok1{
+    font-family: 'Arima Madurai', cursive;
+    color: white;
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    border: 2px solid red;
+    display: inline-block;
+    height: 20vh;
+    width: 20vw;
+
+}
+
