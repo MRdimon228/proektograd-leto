@@ -1,5 +1,5 @@
 body{
-    background:url(/proektograd-leto/images/fon-dlya-stola-tekstura-chernyj.jpg)
+    background:url('/images/fon-dlya-stola-tekstura-chernyj.jpg')
 }
 
 .blok1{
@@ -133,4 +133,26 @@ body{
     vertical-align: top;
     margin-left: 5%;
     color: white;
+}
+.p5{
+width: 500px;
+}
+p{
+color: white;
+
+}
+.uwu{
+
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 19px;
+
+}
+.lol{
+font-size: 20px;
+}
+.a{
+
+width: 100px;
+
 }
