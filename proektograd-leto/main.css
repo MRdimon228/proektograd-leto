@@ -27,6 +27,7 @@ body{
     width: 35%;
     vertical-align: middle;
     margin-left: 5%;
+    text-align: right;
 }
 .block2{
     font-family: 'Ubuntu', cursive;
@@ -105,6 +106,10 @@ font-family: Ubuntu;
 }
 .blok-s-vozhatymi{
     height: 2000px;
+}
+.Lol{
+    color: white;
+    text-align:center ;
 }
 
 
