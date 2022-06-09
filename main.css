@@ -51,6 +51,7 @@ font-size: 32px;
     width: 500px;
     display:inline-block;
     vertical-align: middle;
+    margin-top: 50px;
 }
 
 .text3{
@@ -58,9 +59,12 @@ font-size: 32px;
     width: 35%;
     vertical-align: middle;
     margin-left: 5%;
+    font-size: 30px;
 }
 .proektograd{
     text-align: center;
+    font-size: 100px;
+    
 }
 .zagalovok{
 text-align: center;
@@ -70,8 +74,38 @@ font-family: Ubuntu;
 }
 .text4{
     color: white;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu';
+    font-size: 45px;
 }
 .picture4{
     width: 500px;
 }
+.text5{
+    color: white;
+    font-family: Ubuntu;
+    font-size: 20px
+} 
+.text6{
+    color: white;
+    font-family: Ubuntu;
+}
+.text7{
+    color: white;
+}
+.block4{
+    width: 45%;
+    display: inline-block;
+
+}
+.vozhatye{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.blok-s-vozhatymi{
+    height: 2000px;
+}
+
+
+
