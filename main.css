@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 body{
-    background:url(/proektograd-leto/images/fon-dlya-stola-tekstura-chernyj.jpg)
+    background:url('/proektograd-leto/images/fon-dlya-stola-tekstura-chernyj.jpg')
 }
 
 .blok1{
@@ -15,7 +15,7 @@ body{
     width: 90vw;
     margin-left: 5vw;
 }
-.group2{
+.group1{
     width: 400x;
     height: 500px;
     display: inline-block;
@@ -66,6 +66,7 @@ font-size: 32px;
 text-align: center;
 color: white;
 font-family: Ubuntu;
+
 }
 .text4{
     color: white;
