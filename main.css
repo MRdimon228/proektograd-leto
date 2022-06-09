@@ -91,11 +91,11 @@ font-family: Ubuntu;
 }
 .text7{
     color: white;
+    font-family: Ubuntu;
 }
 .block4{
     width: 45%;
     display: inline-block;
-
 }
 .vozhatye{
     display: flex;
@@ -104,8 +104,37 @@ font-family: Ubuntu;
     text-align: center;
 }
 .blok-s-vozhatymi{
-    height: 2000px;
+    height: 1147px;
+}
+.block5{
+margin-left:5% ;
+height: 660px;
+
+}
+.text8{
+color: white;
+text-align: center;
+font-family: Ubuntu;
+font-size: 100px;
 }
 
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
 
-
+.flex-container{
+    display: inline-block;
+}
+.flex-text{
+    color: white;
+    font-family: Ubuntu;
+    font-size: 50px;
+}
+.block6{
+    height: 500px;
+    margin-top: 5%;
+}
+.images10{
+    margin-left: 10%;
+}
