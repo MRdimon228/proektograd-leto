@@ -4,6 +4,176 @@ body{
     background:url('/proektograd-leto/images/fon-dlya-stola-tekstura-chernyj.jpg')
 }
 
+@keyframes zoom {
+    from {
+      transform: scale(0.85);
+      opacity: 0.5;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes zoom-out {
+      from {
+        transform: scale(0.3);
+        opacity: 0.0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+  
+  @keyframes right {
+    from {
+      transform: translate(-100px);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0px);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes left {
+    from {
+      transform: translate(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes top {
+    from {
+      transform: translate(0px, 100px);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0px, 0px);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes down {
+    from {
+      transform: translate(0px, -100px);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0px, 0px);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes rotate {
+      from{
+          transform: rotate(0deg);
+      }
+      to{
+          transform: rotate(360deg);
+      }
+  }
+  
+  .forma {
+    margin-top: 40px;
+    width: 50%;
+    margin-left: 25%;
+    display: inline-block;
+  }
+  .form-input {
+    width: 100%;
+    display: block;
+    height: 45px;
+    background: transparent;
+    border: 3px solid white;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding-left: 15px;
+    font-family: Signika;
+    font-size: 19px;
+    color: white;
+  }
+  .form-button {
+    font-family: Signika;
+    vertical-align: top;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    width: 50%;
+    margin-left: 25%;
+    cursor: pointer;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    display: block;
+    scroll-padding-top: 70px;
+  }
+  
+  .menu {
+    height: 55px;
+    display: flex;
+    background-color: #87c781;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    padding-right: 40px;
+    justify-content: space-between;
+  }
+  
+  .logo-block {
+    font-family: Tauri;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    margin-left: 10px;
+    color: #fffdfd;
+    cursor: pointer;
+    
+  }
+  
+  .link-block{
+      display: inline-block;
+      
+  }
+  
+  .link-block>a{
+      font-family: Tauri;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 23px;
+      color: #fffdfd;
+      margin-right: 100px;
+      cursor: pointer;
+  }
+  
+  
+  .link-block>a:hover{
+      text-decoration: underline;
+  }
+  
+  .flower{
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      animation: rotate 3s linear infinite;
+      vertical-align: middle;
+  }
 .blok1{
     font-family: 'Ubuntu', cursive;
     color: white;

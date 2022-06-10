@@ -110,9 +110,12 @@
     </div>
     <div class="block6"> 
         <h1 class="text8">Как с нами связаться</h1> 
-        <div class="imageblok"><img src="/proektograd-leto/images/Group 5.png"></div>
-        <div class="imageblok"><img src="/proektograd-leto/images/Group 6.png"></div>
-        <div class="imageblok"><img src="/proektograd-leto/images/Group 7.png"></div>
+        <form action="send.php" method="post" class="forma">
+            <input type="text" name="fio" placeholder="Как вас зовут?" class="form-input">
+            <input type="text" name="email" placeholder="Ваш e-mail" class="form-input">
+            <input type="text" name="phone" placeholder="Ваш номер телефона" class="form-input">
+            <input type="submit" value="Отправить" class="form-button">
+            </form>
     </div>
   </body>
 </html>
